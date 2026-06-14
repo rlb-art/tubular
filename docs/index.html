@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TUBULAR | Rebecca Breihan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <div class="container-fluid px-4">
+    <a class="navbar-brand" href="#">TUBULAR</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#completed">Work</a></li>
+        <li class="nav-item"><a class="nav-link" href="#why">Concept</a></li>
+        <li class="nav-item"><a class="nav-link" href="#installation">Installation</a></li>
+        <li class="nav-item"><a class="nav-link" href="#process">Process</a></li>
+        <li class="nav-item"><a class="nav-link" href="#timeline">Timeline</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-overlay"></div>
+</header>
+
+<section id="completed">
+  <div class="container-fluid px-4 section-row">
+    <div class="section-text">
+      <div class="section-heading">
+        <h2>TUBULAR</h2>
+      </div>
+
+      <p>
+        <strong>TUBULAR</strong> is a sculptural installation made from a cluster of viewing tubes embedded into a wall.
+        Each tube has a screen on one end and acts as a small chamber for the emitted light to be transformed.
+      </p>
+
+      <p>
+        Viewers are invited to peer into the structure. They are greeted by circular digital screens whose light is shifted by optical materials.
+        The screens visualize equations that build crystalline lattice structures.
+      </p>
+    </div>
+
+    <div class="media-grid">
+      <img src="completed_1.jpg" alt="Completed installation view">
+      <img src="completed_2.jpg" alt="Close-up of viewing tubes">
+
+      <video class="grid-video" controls playsinline>
+        <source src="completed_3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
+
+<section id="why" class="section-dark">
+  <div class="container-fluid px-4">
+
+    <div class="concept-top">
+      <div class="concept-copy">
+        <div class="section-heading">
+          <h2>Concept</h2>
+        </div>
+
+        <p>
+          <strong>TUBULAR</strong> is composed of a network of viewing tubes embedded within a wall.
+          Arranged together, the tubes suggest a hidden system extending beyond what can be immediately seen.
+          Drawing inspiration of quiet infrastructures, the work invites viewers to investigate a structure.
+          Each tube suggests a pathway: something is traveling from one place to another.
+          As light passes through a diffraction grating sheet in the center, it is separated into its constituent wavelengths, effectively redistributing it into echoing spectral patterns.
+          The journey is neither clean nor direct.
+          The Animated emerge from repeating functions based on various crystalline equations, hinting at a larger order beyond the visible frame.
+          These geometries shift between clarity and obscurity, offering fragments of a system that can never be fully seen at once.
+        </p>
+      </div>
+
+    <div class="concept-grid">
+      <img src="concept_1.jpg" alt="Concept image 1">
+      <img src="concept_2.jpg" alt="Concept image 2">
+      <img src="concept_3.jpg" alt="Concept image 3">
+      <img src="concept_4.jpg" alt="Concept image 4">
+      <img src="concept_5.jpg" alt="Concept image 5">
+    </div>
+
+  </div>
+</section>
+
+
+<section id="installation">
+  <div class="container-fluid px-4 section-row">
+    <div class="section-text">
+      <div class="section-heading">
+        <h2>Installation</h2>
+      </div>
+
+      <p>
+        <strong>TUBULAR</strong> is presented as a large tube within a wall that containing a cluster of viewing tubes.
+        Embedded within the large tube are 13 smaller tubes containing the digital displays and optical materials to create the effects.
+        I power my project from an outlet in the wall that connects to a 5V 20A power supply that is connected to a 2 in 20 out power railing, that then runs to power the 13 ESP-32s and screens.
+        The esp-32 boards run the logic for each tube. I have plans on connecting them to one central arduino board in the future.
+        A dark area in the gallery is used for maximum viewing effect meant to encourage close looking and a series of private viewing experiences within the shared space.
+      </p>
+
+    </div>
+
+    <div class="media-grid large">
+      <img src="installation_1.jpg" alt="Full gallery installation">
+      <img src="installation_2.jpg" alt="Viewer interacting with the installation">
+    </div>
+  </div>
+</section>
+
+<section id="process" class="section-dark">
+  <div class="container-fluid px-4 section-row">
+    <div class="section-text">
+      <div class="section-heading">
+        <h2>Process</h2>
+      </div>
+
+      <p>
+        The process began with various light experiments, trying to find a balance between ease of control and manufacturability required during this timeline and wanting it to have a high cap on my ability to make it more technically complex.
+        The project shifted toward using diffraction gratings, which produced strong and consistent optical effects. It was then developed and refined through repeated testing of tube depth, display placement, diffraction material, screen animations,
+        and the overall arrangement. I also needed to program them and test what images I liked having displayed. I played around with text, numbers, images, and eventually settled on geometric shapes.
+      </p>
+
+    </div>
+
+    <div class="media-grid">
+      <img src="update_2_arduino.jpg" alt="Arduino and screen testing">
+      <img src="update_3_experiments.jpg" alt="Diffraction grating experiments">
+      <img src="update_3_tube.jpg" alt="Tube structure and materials">
+    </div>
+  </div>
+</section>
+
+<section id="timeline">
+  <div class="container-fluid px-4">
+    <div class="section-heading">
+      <h2>Timeline</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <h5>Winter Weeks 1–3</h5>
+        <p>Started early experiments.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h5>Winter Week 4</h5>
+        <p>Shifted toward diffraction gratings.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h5>Winter Weeks 5–6</h5>
+        <p>Began Arduino and screen testing. Acquired structural materials.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h5>Winter Weeks 7–10</h5>
+        <p>Redefined the project.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h5>Spring Weeks 1–3</h5>
+        <p>Solidified the tube design.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h5>Spring Weeks 3–4</h5>
+        <p>Designed the tube structure and made adjustments.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h5>Spring Weeks 5–7</h5>
+        <p>Printed tube components, ordered materials, and solved power needs.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h5>Spring Weeks 7–10</h5>
+        <p>Assembled all components.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h5>Final</h5>
+        <p>Installed and documented the work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <small>© 2026 Rebecca Breihan</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+```
